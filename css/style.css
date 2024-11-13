@@ -130,7 +130,7 @@ h6,
     height: 100%;
     top: 0;
     right: -25px;
-    transform: skewX(-30deg);
+    transform: skewX(-25deg);
     background-color: var(--primary);
 }
 
@@ -158,9 +158,23 @@ h6,
 }
 
 @media (max-width: 991.98px) {
+
+
+    /* Ajustement de la position du contenu du menu */
+    .navbar-collapse {
+        margin-top: 70px;
+        /* Espace en dessous du header */
+    }
+
+    .ps-5 {
+        padding-left: 1.5rem !important;
+    }
+
     .navbar .navbar-nav .nav-link {
         margin-right: 0;
-        padding: 10px 0;
+        padding: 20px 0;
+        width: 30px;
+
     }
 
     .navbar .navbar-nav {
