@@ -66,7 +66,6 @@ Pour toute proposition d’amélioration ou correction, ouvrez une *issue* ou un
 
 - **Site web :** [Cabinet HCE](#)
 - **Email :** heradconseils@gmail.com
-- **Téléphone :** +228 99 99 99 99
 
 
 ## Auteur
