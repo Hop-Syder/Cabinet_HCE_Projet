@@ -1,50 +1,73 @@
-# Cabinet_HCE_Projet
+# Cabinet HCE – Site Web
 
-Bienvenue sur le dépôt du projet **Cabinet HCE**, une application web développée principalement en SCSS, HTML, JavaScript et CSS.
+Bienvenue sur le dépôt du site web du **Cabinet Herad Conseils et Etudes (HCE)**, spécialisé en topographie, cartographie, expertise judiciaire, gestion foncière et aménagement rural.
 
 ## Présentation
 
-Ce projet vise à offrir une solution digitale pour la gestion d’un cabinet HCE (Hypnose, Coaching, et Énergétique). Il propose une interface moderne et responsive, adaptée aussi bien aux professionnels qu'aux clients, pour faciliter la prise de rendez-vous, la présentation des services, et la gestion du cabinet.
+Ce projet contient le code source du site vitrine du Cabinet HCE, cabinet d’experts en géomatique basé en Afrique de l’Ouest. Le site présente l’équipe, les services proposés, les réalisations, ainsi qu’un accès simplifié pour contacter le cabinet.
 
 ## Fonctionnalités principales
 
-- **Présentation des services** : Mise en avant des différentes prestations du cabinet (hypnose, coaching, énergétique, etc.)
-- **Gestion des rendez-vous** : Interface pour la prise et la gestion des rendez-vous.
-- **Section contact** : Formulaire et informations pour contacter le cabinet.
-- **Interface utilisateur intuitive** : Navigation simplifiée et design responsive.
-- **Personnalisation** : Possibilité d’adapter les couleurs et le contenu selon l’identité du cabinet.
+- **Page d’accueil dynamique** avec carrousel des domaines d’expertise.
+- **Présentation du cabinet** : historique, équipe, chiffres clés.
+- **Catalogue des services** : topographie, cartographie, photo-interprétation, expertise judiciaire, gestion foncière.
+- **Galerie de projets** réalisés.
+- **Témoignages clients**.
+- **Contact direct** (WhatsApp, email, téléphone).
+- **Responsive Design** compatible mobile & desktop.
 
 ## Technologies utilisées
 
-- **SCSS** (42.3%) : Pour la gestion avancée des styles.
-- **HTML** (33.2%) : Structure des pages.
-- **JavaScript** (20.5%) : Fonctionnalités dynamiques et interactions utilisateur.
-- **CSS** (4%) : Feuilles de style complémentaires.
+- **HTML5 / CSS3 / SCSS**
+- **JavaScript**
+- **Bootstrap**
+- **FontAwesome**
+- **Google Fonts**
+- Plugins JS : carrousel, animation, compteur, etc.
 
-## Installation
+## Installation & utilisation
 
-1. Clonez le dépôt :
+1. **Cloner le dépôt :**
    ```bash
    git clone https://github.com/Hop-Syder/Cabinet_HCE_Projet.git
    ```
-2. Installez les dépendances (si besoin) :
-   ```bash
-   npm install
-   ```
-3. Lancez l’application :
-   ```bash
-   npm start
-   ```
 
-## Accès
+2. **Ouvrir le site :**
+   - La page principale est `index.html`.
+   - Vous pouvez ouvrir le fichier directement dans votre navigateur ou héberger sur un serveur web.
 
-L’application est accessible en ligne :  
-👉 [https://hce-cabinet.vercel.app](https://hce-cabinet.vercel.app)
+3. **Personnalisation :**
+   - Modifiez les fichiers dans le dossier pour adapter les informations (services, images, textes) à vos besoins.
+
+## Structure du projet
+
+```
+├── index.html
+├── about.html
+├── project.html
+├── service.html
+├── css/
+│   └── style.css
+├── scss/
+│   └── style.scss
+├── js/
+│   └── main.js
+├── images/
+│   └── ... (photos, logos)
+└── README.md
+```
 
 ## Contribution
 
 Les contributions sont les bienvenues !  
-N’hésitez pas à ouvrir une issue ou à proposer une pull request.
+Pour toute proposition d’amélioration ou correction, ouvrez une *issue* ou une *pull request*.
+
+## Contact
+
+- **Site web :** [Cabinet HCE](#)
+- **Email :** heradconseils@gmail.com
+- **Téléphone :** +228 99 99 99 99
+
 
 ## Auteur
 
